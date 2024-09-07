@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(25deg, #0c090e, #28ad967c);
+}
+.calculator{
+    background: transparent;
+    border: 1px solid orangered;
+    box-shadow: 15px 15px 20px rgba(113, 115, 119, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input{
+    padding: 24px;
+    margin: 10px;
+    background: rgb(47, 14, 87);
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    text-align: right;
+    font-size: 40px;
+    border: none;
+    width: 320px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #6dee0a;
+}
+
+input::placeholder{
+    color: #6fff0086;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px #8c86aa;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(47, 14, 87);
+    color: #ffffff;
+    border: none;
+}
+
+.equalBtn{
+    background-color: orangered;
+}
+
+.operator{
+    color:#6dee0a;
+}
